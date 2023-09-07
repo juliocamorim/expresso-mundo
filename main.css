@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #0e2a56;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #469cf7;
+    color: #ffffff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-destinos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.section-title {
+    font-family: Merriweather, sans-serif;
+}
+
+#sobre-nos,
+#destinos,
+.direitos-reservados {
+    background-color: #0e2a56 ;
+    color: #fff;
+}
+
+#foto3 img {
+    height: 64.6%
+}
+
+.text-colored {
+    color: #469cf7;
+}
+
+.nav-destinos .nav-link.active,
+#contato button {
+    background-color: #469cf7;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #469cf7;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

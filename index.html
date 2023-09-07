@@ -3,9 +3,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expresso Mundo - Conhecer as maravilhas do mundo ficou mais fácil </title>
+    <title>Expresso Mundo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <header class="navbar navbar-expand-lg sticky-top pt-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fs-2 m-0 section-title text-colored">Expresso Mundo</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex fw-bold fs-6 ">
+                    <li class="nav-item">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#planos" class="nav-link">
+                            <i class="bi bi-globe-americas me-1"></i>
+                            Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#destinos" class="nav-link">
+                            <i class="bi bi-airplane me-1"></i>
+                            Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-dots me-1"></i>
+                            Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabacalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/daniele-colucci-gOQMwGlYe2I-unsplash-fotor-20230907154636.png" alt=""> 
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/arnaud-steckle-xXUAysZRZ1I-unsplash-fotor-20230907155210.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/leighton-smith-NPxkSK-makg-unsplash-fotor-20230907154919.png" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div>
+                <div class="container pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/escritorio/91a3b951c4e9913d7e0a0ce9d68f7a9d.jpg" class="d-block w-100 rounded" alt="Imagem interna do nosso escritório">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title text-colored">Sobre nós</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ad repellendus atque architecto, eum distinctio quos optio ipsa assumenda iste pariatur dolor error qui amet ducimus quidem! Odit, vero adipisci.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, libero exercitationem debitis voluptatum mollitia qui assumenda velit, voluptates eligendi at rerum. Illum cum quisquam minima accusamus, dolor tenetur veritatis facilis?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequuntur sequi asperiores velit accusamus excepturi quo, repudiandae iste rerum neque explicabo illum totam inventore voluptates laborum deleniti ab repellat vel!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="planos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored">Planos de Viagem</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/planos/iStock-495812114.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-fill"></i>
+                            Viagem sozinho</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet laudantium impedit fugiat aliquid animi, nesciunt quod hic, voluptatum libero numquam quo rem? Consequatur quas, aliquid tenetur ab adipisci obcaecati.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/planos/R.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-fill-add"></i>
+                            Viagem com amigos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam veniam optio quam non debitis autem, tempora consequuntur ea. Quis atque nemo qui laudantium quaerat magnam, ad adipisci iste officia?
+                        </p>
+                    </div>
+                    <div class="col-md-4" id="foto3">
+                        <img src="./images/planos/R (1).jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Viagem em familía</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi ducimus, aspernatur consequatur quam distinctio ea porro quas necessitatibus exercitationem, nulla pariatur. Magni, iusto veritatis? Nulla accusantium sunt quasi molestias.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-colored text-center pt-5 pb-5">Nossos Destinos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-destinos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#africa" class="fw-bold fs-5 text-start nav-link text-colored active">África</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#america-do-norte" class="fw-bold fs-5 text-start nav-link text-colored">América do Norte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#america-do-sul" class="fw-bold fs-5 text-start nav-link text-colored">Ámérica do Sul</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#asia" class="fw-bold fs-5 text-start nav-link text-colored">Ásia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#europa" class="fw-bold fs-5 text-start nav-link text-colored">Europa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#oceania" class="fw-bold fs-5 text-start nav-link text-colored">Oceania</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10 pt-5">
+                        <div class="tab-content pb-5">
+                            <div class="tab-pane active" id="africa">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/africa_do_sul-fotor-2023090718334.png" alt="África do Sul">
+                                        <h3 class="text-colored fw-bold md-2">África do Sul</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/marrocos.jpg" alt="Marrocos">
+                                        <h3 class="text-colored fw-bold md-2">Marrocos</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="america-do-norte">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/canada-fotor-20230907181346.png" alt="Canadá">
+                                        <h3 class="text-colored fw-bold md-2">Canadá</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/eua-fotor-20230907181415.png" alt="Estados Unidos">
+                                        <h3 class="text-colored fw-bold md-2">Estados Unidos</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="america-do-sul">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/brasil-fotor-20230907181818.png" alt="Brasil">
+                                        <h3 class="text-colored fw-bold md-2">Brasil</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/peru-fotor-20230907181849.png" alt="Peru">
+                                        <h3 class="text-colored fw-bold md-2">Peru</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="asia">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/tailandia.jpg" alt="Tailândia">
+                                        <h3 class="text-colored fw-bold md-2">Tailândia</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/japao.jpg" alt="Japão">
+                                        <h3 class="text-colored fw-bold md-2">Japão</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="europa">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/frança.png" alt="França">
+                                        <h3 class="text-colored fw-bold md-2">França</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/italia.png" alt="Itália">
+                                        <h3 class="text-colored fw-bold md-2">Itália</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="oceania">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/australia.jpg" alt="Austrália">
+                                        <h3 class="text-colored fw-bold md-2">Austrália</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100 pb-3" src="./images/paises/nova-zelandia-fotor-20230907184544.png" alt="Nova Zelândia">
+                                        <h3 class="text-colored fw-bold md-2">Nova Zelândia</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pt-5 pb-5 text-colored">Contate-nos!</h2>
+                </div>
+                <div class="row" >
+                    <div class="col-md-7 pb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored fs-5">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored fs-5">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Telefone" class="form-label fw-bold text-colored fs-5">Seu Telefone</label>
+                                <input type="tel" id="Telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored fs-5">Seu mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored pb-1">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="">
+                                        <i class="bi bi-instagram text-colored m-3"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored pt-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                            Rua Sete de Setembro n°2023, Bairro Brasil - Rio de Janeiro - RJ
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="direitos-reservados p-3">
+            <h5>© 2023 - EXPRESSO MUNDO - Todos os direitos reservados</h5>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
